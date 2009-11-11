@@ -1,7 +1,7 @@
 <?php
 
 function standard_drupal_profile_modules() {
-  return array('admin_menu', 'help', 'menu', 'taxonomy', 'views', 'views_ui', 'content');
+  return array('admin_menu', 'content', 'number', 'option_widgets', 'text', 'help', 'menu', 'taxonomy', 'schema', 'views', 'views_ui');
 }
 
 function standard_drupal_profile_details()
