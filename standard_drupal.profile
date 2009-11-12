@@ -1,7 +1,17 @@
 <?php
 
 function standard_drupal_profile_modules() {
-  return array('install_profile_api', 'admin_menu', 'content', 'number', 'option_widgets', 'text', 'help', 'menu', 'taxonomy', 'schema', 'views', 'views_ui');
+  return array(
+    'install_profile_api',   
+    // Core
+    'help', 'menu', 'path', 'taxonomy',
+    // CCK
+    'content', 'number', 'optionwidgets', 'text',
+    // Views
+    'views', 'views_ui',
+    // Misc
+    'admin_menu', 'token', 'pathauto', 'schema', 'backup_migrate'
+  );
 }
 
 function standard_drupal_profile_details()
