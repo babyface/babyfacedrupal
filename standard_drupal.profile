@@ -17,8 +17,8 @@ function standard_drupal_profile_modules() {
 function standard_drupal_profile_details()
 {
   return array(
-    'name' => 'Babyface Drupal',
-    'description' => 'Select this profile to enable the default Babyface Drupal functionality.'
+    'name' => 'Babyface',
+    'description' => 'Select this profile to install Babyface Drupal.'
   );
 }
 
