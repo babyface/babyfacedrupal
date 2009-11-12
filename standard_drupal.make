@@ -1,6 +1,8 @@
 core = 6.x
 projects[] = drupal
 
+projects[] = install_profile_api
+
 projects[] = backup_migrate
 projects[] = cck
 projects[] = views
